@@ -3,7 +3,7 @@ package com.akp.exercise;
 public class Fibonacci {
     public static long of(int n) {
         if (n < 0) {
-            throw new IllegalArgumentException("n must be positive, but was " + n);
+            throw new IllegalArgumentException("n must be positive, but actually was " + n);
         }
         if (n < 2) {
             return n;
