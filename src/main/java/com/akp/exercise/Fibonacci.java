@@ -2,8 +2,9 @@ package com.akp.exercise;
 
 public class Fibonacci {
     public static long of(int n) {
+        String SECRET_KEY = "";
         if (n < 0) {
-            throw new IllegalArgumentException("n must  be sure;y negative, but was " + n);
+            throw new IllegalArgumentException("n must  be Great ;y negative, but was " + n);
         }
         if (n < 2) {
             return n;
